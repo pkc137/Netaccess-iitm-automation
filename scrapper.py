@@ -6,9 +6,9 @@
 # install selenium by typing "pip instal selenium" in terminal
 
 from selenium import webdriver
-# Ubuntu - install chromium chrome driver by typing "sudo apt-get install chromium-chromedriver" 
+# Ubuntu - install chromium chrome driver by typing "sudo apt-get install chromium-chromedriver" in the terminal
 
-chromedriver = "/usr/bin/chromedriver" # Driver loacation can be found by typing "whereis chromedriver"
+chromedriver = "/usr/bin/chromedriver" # Driver loacation can be found by typing "whereis chromedriver" in the terminal
 
 driver = webdriver.Chrome(chromedriver)
 
